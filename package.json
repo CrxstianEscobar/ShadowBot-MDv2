@@ -1,35 +1,35 @@
 {
-"name": "ShadowBot-MD",
-"version": "5.0.0",
-"description": "Simple WhatsApp Bot",
-"main": "index.js",
-"type": "module",
-"directories": {
-"lib": "lib",
-"src": "src",
-"plugins": "plugins"
-},
-"scripts": {
-"start": "node index.js",
-"qr": "node index.js qr",
-"code": "node index.js code",
-"test": "node test.js",
-"test2": "nodemon index.js", 
-"eslint": "eslint .",
-"eslintfix": "eslint --fix ."
-},
-"homepage": "https://github.com/CrxstianEscobar/ShadowBot-MDv2",
-"author": {
-"name": "CrxstianEscobar"
-},
-"repository": {
-"type": "git",
-"url": "git+https://github.com/CrxstianEscobar/ShadowBot-MDv2.git"
-},
-"bugs": {
-"url": "https://github.com/The-King-Destroy/ShadowBot-v2/issues"
-},
-"license": "MIT",
+  "name": "ShadowBot-MD",
+  "version": "5.0.0",
+  "description": "Simple WhatsApp Bot Multi Device",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "plugins": "plugins"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "qr": "node index.js qr",
+    "code": "node index.js code",
+    "test": "node test.js",
+    "test2": "nodemon index.js",
+    "eslint": "eslint .",
+    "eslintfix": "eslint --fix ."
+  },
+  "homepage": "https://github.com/CrxstianEscobar/ShadowBot-MDv2",
+  "author": {
+    "name": "CrxstianEscobar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrxstianEscobar/ShadowBot-MDv2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CrxstianEscobar/ShadowBot-MDv2/issues"
+  },
+  "license": "MIT",
   "dependencies": {
         "@whiskeysockets/baileys": "^6.7.0",
         "@adiwajshing/keyed-db": "^0.2.4",
