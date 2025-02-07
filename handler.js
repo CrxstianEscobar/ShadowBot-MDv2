@@ -513,7 +513,7 @@ admin: `*[ ℹ️ ] Este comando solo puede ser usado por los administradores de
 botAdmin: `*[ ℹ️ ] Para ejecutar este comando debo ser administrador del grupo.*`,
 unreg: `*[ ℹ️ ] No te encuentras registrado, regístrate para usar esta función.*\n\n*.reg <nombre.edad>*\n\n*[ 💡] Ejemplo:*\n.reg ${user2}.21`,
 restrict: `*[ ℹ️ ] Esta caracteristica está desactivada.*`
-    /*
+    
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 
@@ -522,8 +522,8 @@ watchFile(file, async () => {
     unwatchFile(file)
     console.log(chalk.magenta("Se actualizo 'handler.js'"))
     if (global.reloadHandler) console.log(await global.reloadHandler())
-})*/
-    
+})
+   /* 
 }[type];
 if (msg) return m.reply(msg).then(_ => m.react('✖️'))}
 
@@ -537,4 +537,4 @@ if (global.conns && global.conns.length > 0 ) {
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
 for (const userr of users) {
 userr.subreloadHandler(false)
-}}});
+}}});*/
