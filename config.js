@@ -79,17 +79,21 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 import moment from 'moment-timezone' 
 
+
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 global.botNumberCode = '' //Ejemplo: +51965911060
 global.confirmCode = ''
+
 
 global.owner = [
   ['51927238856', '𝑪𝒓𝒊𝒔𝒔 𝑬𝒔𝒄𝒐𝒃𝒂𝒓', true],
   ['51965911060', '𝑺𝒉𝒂𝒅𝒐𝒘', true]
 ]
 
+
 global.mods = []
 global.prems = []
+
 
 //Cambiar a true si el bot detecta sus propios comandos.
 global.isBaileysFail = false
@@ -101,6 +105,7 @@ global.nameqr = 'ShadowBot-MD'
 global.namebot = '𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 - 𝑴𝑫'
 global.sessions = 'ShadowSession'
 global.jadi = 'ShadowJadiBot'
+
 
 global.packname = '𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 - 𝑴𝑫'
 global.botname = '𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 - 𝑴𝑫'
@@ -120,17 +125,18 @@ global.namechannel = 'お 𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 - 𝑴𝑫 ☕�
 global.stickauth = `By Shadow 💫`
 global.dis = ':⁖֟⊱┈֟፝❥'
 
-global.catalogo =
 
-global.group = 'https://chat.whatsapp.com/GqKwwoV2JJaJDP2SL7SddX'
-global.group2 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU'
-global.canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'
-global.github = 'https://github.com/Angelito-OFC/Genesis-AI' 
-global.instagram = 'https://www.instagram.com/angelito.kzx' 
-global.whatsApp = 'https://wa.me/59168683798'
+global.catalogo = fs.readFileSync('./src/catalogo.png')
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
+global.group = ''
+global.group2 = ''
+global.canal = ''
+global.github = 'https://github.com/CrxstianEscobar/ShadowBot-MD' 
+global.instagram = 'https://www.instagram.com/usxr.crxxs' 
+global.whatsApp = 'https://wa.me/51927238856'
+
+/*
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᰔᩚ gᥱᥒᥱsіs ᥕһᥲ𝗍sᥲ⍴⍴ ᑲ᥆𝗍', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}};
 
 global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨', jpegThumbnail: catalogo }}};
@@ -138,15 +144,14 @@ global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖ɢ ᴇ ɴ ᴇ ꜱ ɪ ꜱ ♡', jpegThumbnail: catalogo }}};
 
 global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 🤍', jpegThumbnail: catalogo }}};
+*/
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
+//Coloca el ID de tus Canales
 global.ch = {
-ch1: '120363220939514640@newsletter',
-ch2: '120363343366246815@newsletter'
+ch1: '',
+ch2: ''
 }
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.APIs = { // API Prefix
   // name: 'https://website' 
@@ -158,7 +163,6 @@ global.APIKeys = { // APIKey Here
   'https://api.fgmods.xyz': 'm2XBbNvz' //-- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
 }
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.cheerio = cheerio
 global.fs = fs
@@ -166,12 +170,10 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment        
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.multiplier = 69
 global.maxwarn = '3'
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
