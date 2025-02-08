@@ -136,6 +136,7 @@ global.github = 'https://github.com/CrxstianEscobar/ShadowBot-MD'
 global.instagram = 'https://www.instagram.com/usxr.crxxs' 
 global.whatsApp = 'https://wa.me/51927238856'
 
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363357231409846@newsletter", serverMessageId: 100, newsletterName: namechannel, }, }, }
 /*
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᰔᩚ gᥱᥒᥱsіs ᥕһᥲ𝗍sᥲ⍴⍴ ᑲ᥆𝗍', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}};
 
