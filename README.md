@@ -1,9 +1,9 @@
-<h1 align="center">♡⃝⏤͟͟͞͞𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 𝑴𝑫᭄</h1>
+<h1 align="center"𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 𝑴𝑫 ☕</h1>
  <p align="center">🌙 WhatsApp Bot Node-Js.</p>
 </p>
 
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio+Oficial;Shadow+Bot-MD;Creado+por+Criss+Escobat+☕)](https://git.io/typing-svg)
-![Shadow](https://i.ibb.co/m5zBDZJn/file.jpg)
+![img](https://i.ibb.co/m5zBDZJn/file.jpg)
 
 ## Avisos Importantes
 
