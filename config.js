@@ -129,9 +129,9 @@ global.dis = ':⁖֟⊱┈֟፝❥'
 global.catalogo = fs.readFileSync('./src/catalogo.png')
 
 
-global.group = ''
-global.group2 = ''
-global.canal = ''
+global.group = 'https://chat.whatsapp.com/C4AxcLYzhuuE7wbq9cwSw8'
+global.group2 = 'https://chat.whatsapp.com/JMhREf9p1sFIreE8TUiOCY'
+global.canal = 'https://whatsapp.com/channel/0029Vafxnat8qIzxOjUrwP41'
 global.github = 'https://github.com/CrxstianEscobar/ShadowBot-MD' 
 global.instagram = 'https://www.instagram.com/usxr.crxxs' 
 global.whatsApp = 'https://wa.me/51927238856'
