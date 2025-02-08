@@ -149,8 +149,8 @@ global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 
 //Coloca el ID de tus Canales
 global.ch = {
-ch1: '',
-ch2: ''
+ch1: '120363357231409846@newsletter',
+ch2: '120363357231409846@newsletter'
 }
 
 
