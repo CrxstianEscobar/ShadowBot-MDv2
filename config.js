@@ -22,7 +22,7 @@ global.owner = [
 global.mods = []
 global.prems = []
 
-
+/*
 //Cambiar a true si el bot detecta sus propios comandos.
 global.isBaileysFail = false
 global.libreria = 'Baileys'
@@ -33,7 +33,7 @@ global.nameqr = 'ShadowBot-MD'
 global.namebot = '𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 - 𝑴𝑫'
 global.sessions = 'ShadowSession'
 global.jadi = 'ShadowJadiBot'
-
+*/
 
 global.packname = '𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 - 𝑴𝑫'
 global.botname = '𝑺𝒉𝒂𝒅𝒐𝒘 𝑩𝒐𝒕 - 𝑴𝑫'
