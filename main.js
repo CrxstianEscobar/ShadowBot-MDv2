@@ -124,7 +124,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? [`Genesis-Ultra`, 'Edge', '20.0.04'] : methodCodeQR ? [`Genesis-Ultra`, 'Edge', '20.0.04'] : ['Ubuntu', 'Chrome', '20.0.04'], 
+browser: opcion == '1' ? [`ShadowBot-MD`, 'Edge', '20.0.04'] : methodCodeQR ? [`Genesis-Ultra`, 'Edge', '20.0.04'] : ['Ubuntu', 'Chrome', '20.0.04'], 
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -155,17 +155,17 @@ let numeroTelefono
 if (!!phoneNumber) {
 numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
 if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-console.log(chalk.bgBlack(chalk.bold.blueBright(`🤍 Por favor, Ingrese el número de WhatsApp.\n${chalk.bold.yellowBright(`☁️  Ejemplo: 57321×××××××`)}\n`)))
+console.log(chalk.bgBlack(chalk.bold.blueBright(`☕ Por favor, Ingrese el número de WhatsApp.\n${chalk.bold.yellowBright(`Ejemplo: 51965911060`)}\n`)))
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.blueBright(`🤍 Por favor, escriba su número de WhatsApp.\n☁️  Ejemplo: 57321×××××××\n`)))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.blueBright(`☕ Por favor, escriba su número de WhatsApp.\nEjemplo: 51965911060\n`)))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break 
 } else {
-console.log(chalk.bgBlack(chalk.bold.blueBright(`🤍 Por favor, escriba su número de WhatsApp.\n☁️  Ejemplo: 57321×××××××\n`)))
+console.log(chalk.bgBlack(chalk.bold.blueBright(`☕ Por favor, escriba su número de WhatsApp.\n☁️  Ejemplo: 51965911060\n`)))
 }}
 rl.close()  
 } 
