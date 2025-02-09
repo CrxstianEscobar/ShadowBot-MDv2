@@ -293,4 +293,4 @@ global.reload = async (_ev, filename) => {
 }
 Object.freeze(global.reload)
 watch(pluginFolder, global.reload)
-await global.reloadHandler()process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
+await global.reloadHandler()
